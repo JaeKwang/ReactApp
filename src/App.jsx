@@ -1,10 +1,15 @@
+import "./App.css"
+import Calendar from "./components/Calendar"
+import Date from "./date.json"
+
 function App() {
   return (
-    <>
-      <h1>안녕, 세상아!</h1>
-      <h2>Hello, world!</h2>
-      <p>VITE_API_KEY: {import.meta.env.VITE_API_KEY}</p>
-    </>
+    <div className="app-container">
+      <div className="rounded-div">
+        <h1>£ 2024 . 12 月 ¢</h1>
+      </div>
+    <Calendar Date={Date}/>
+    </div>
   );
 }
 

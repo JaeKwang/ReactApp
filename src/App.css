@@ -1,0 +1,21 @@
+.app-container {
+  width: 70vw;
+  min-height: 90vh;
+  margin: 5vh auto;
+  flex-direction: column;
+}
+
+.rounded-div {
+  background-color: rgb(51, 104, 65);
+  border-radius: 9999px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 48px;
+  margin: 10px 20px;
+}
+
